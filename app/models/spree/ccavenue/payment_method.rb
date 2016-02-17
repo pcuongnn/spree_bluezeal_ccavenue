@@ -6,7 +6,7 @@ module Spree
 
     # Hardcoded, because usually merchants don't know what it should look like
     def url
-      'https://test.ccavenue.com/transaction/transaction.do?command=$command'
+      'https://test.ccavenue.com/transaction/transaction.do?command=initiateTransaction'
     end
 
     # Refer to Spree Commerce documentation for details
